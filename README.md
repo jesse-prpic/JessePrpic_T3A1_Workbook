@@ -89,6 +89,32 @@ W3C. (2023). Web Development Standards. Retrieved from https://www.w3.org/
 W3Schools. (2023). Learn SQL. Retrieved from https://www.w3schools.com/sql/
 
 # Question Five
+The project that I have chosen to reference for this question is SIX-LETTER-WORD-GAME, which you can find here on Github.
+))
+
+To successfully complete my project on the termial application inspired by "WORDLE", I had to employ a diverse set of knowledge and skills whilst also navigating several challenges. Throughout this project I relied on a combination of technical knowledge, programming skills and how to face challenges and pivot my project when necessary. The primary objective was to create a user-friendly interface that allowed players to guess a six-letter word within eight attemps, while managing players data and scores.
+
+The main areas of focus were Python programming, file handing, user interfect design and project management. Here's a detailed breakdown of the knowledge and skills I utilized, along with the challenges I encountered and how I overcame them.
+
+Required Knowledge and Skills Required
+
+- Programming Proficiency in Python
+
+- Data Structures and Algorithms
+- File Handling
+- User Interface Design
+- Project Managemnt
+- Debugging, Error handling and Testing
+
+Overcoming Challenges
+- User Input Management
+- Game Logic
+- User functionality
+- Scoreboard Management
+- Time Management
+
+
+
 
 
 # Question Six
