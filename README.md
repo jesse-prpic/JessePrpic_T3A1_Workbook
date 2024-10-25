@@ -159,10 +159,75 @@ In conclusion, this project allowed me to apply and evaluate my knowledge and sk
 
 # Question Seven
 
+Control flow referes to the order in which individual statements, instructions, or functions are executed or evaluated ina  program, this is generally read and executed in order from left-to-right, top-to-bottom )codecademy reference). Control flow has many mechanisms including; conditional statements, loops, and switch statements, each having different variants and serving different purposes.
 
+1. Conditional statements
+Conditional statements in Javascript enable your program to choose different paths based on certain conditions. They are fundamental in decision-making processes within your code and can be broken down into "if", "else-if" and "else" statements.
+
+- If statements
+The "if" statement checks a condition and executes the associated block of code only if the conditional evaluates to be true.
+
+Example: Age to Vote
+
+Here, the condition checks if age is 18 or older. If this statement is true, the message is printed - "You are eligible to vote". If age were less than the condition of being 18, nothing would happen - this demonstrates a simplistic way of a conditional check.
+
+- Else-if statement
+With previous example looking at two distinct outcomes, "else-if" statement allows for multiple conditions to be evaluated in sequence, this is particularly useful when you have more than two potential outcomes.
+
+Example: HD to Fail
+
+))
+
+Within this example, there are several ranges for "Marks", a grade is assigned in a range that would coinside with the grades. This approach is efficient for grading systems or any scenarios with a tiered evaluations (Codeacademy, 2023).
+
+Else statement
+
+
+
+2. Loops
+
+Loops in JavaScript allow for a condition to be repeated through a block of code, they are essential for automating tasks and processing collections of data without having to deal with repetitive coding and these can be found by using the methods of "For", "While", "Do while" and "For...of and For...in" loops.
+
+- For Loops
+
+
+- While Loops
+
+
+- Do While
+
+
+- For...of and For...in loops
+
+
+
+3. Logical Operators
+Logical operators enhance conditional statements by allowing the combinations and negation of boolean expressions, these can be depicted by "AND (&&)", " OR (||)" and " NOT (!)".
+
+- Logical AND (&&)
+The expression evaluates to true only if both operands are true
+
+- Logcial OR (||)
+The expression evaluates to true if atleast one operand is true
+
+- Logical NOT (!)
+This negates the truthiness of an operand, turning true to false and vice versa
+))
+
+Example: Picnic?
+
+Within this example, the values of isSunny and isWeekend will display different messaged dependent on the outcome. This showcases how logical operators can create complex conditions (MDN, 2023).
 
 # Question Eight
+
+
 # Question Nine
+
+
 # Question Ten
+
+
 # Question Eleven
+
+
 # Question Twelve
