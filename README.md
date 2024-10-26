@@ -225,6 +225,18 @@ Within this example, the values of isSunny and isWeekend will display different 
 
 
 # Question Ten
+Manipulating Arrays in JavaScript
+Arrays in JavaScript are dynamic data structures that can hold multiple values, making them essential for various programming tasks. They come equipped with numerous built-in methods that facilitate the manipulation of their elements. Below, we will explore some fundamental operations, using examples from the provided code.
+
+![alt text](IMAGES/Question10.pngO)
+
+The code snippet demonstrates various operations on an array in JavaScript, focusing on a list of fruits. Initially, an array named fruits is created with three elements: 'apple', 'banana', and 'cherry'. Elements are then added using the push method, which appends 'date' to the end of the array, and the unshift method, which adds 'elderberry' to the beginning. After these additions, the array contains ['elderberry', 'apple', 'banana', 'cherry', 'date'].
+
+Subsequently, elements are removed from the array using the pop method, which removes the last element ('date') and returns it, leaving the array as ['elderberry', 'apple', 'banana', 'cherry']. The shift method is then used to remove the first element ('elderberry'), resulting in the array now being ['apple', 'banana', 'cherry'].
+
+To display the fruits, the forEach method is utilized, which iterates over each element in the array and logs each fruit to the console. The code also includes operations to find specific elements, using the indexOf method to get the index of 'banana', which is 1. Additionally, the filter method is employed to create a new array containing fruits with more than five characters; however, since none of the current fruits meet this criterion, this results in an empty array.
+
+Finally, the current state of the fruits array, the index of 'banana', and the list of long fruits are logged to the console, summarizing the array's contents after the various manipulations. Overall, this code illustrates basic array manipulation techniques, including adding, removing, iterating, and filtering elements in JavaScript.
 
 
 # Question Eleven
