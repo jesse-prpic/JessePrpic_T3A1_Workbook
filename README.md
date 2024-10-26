@@ -241,5 +241,17 @@ Finally, the current state of the fruits array, the index of 'banana', and the l
 
 # Question Eleven
 
+In JavaScript, objects are versatile data structures that allow developers to store collections of key-value pairs. They are essential for organizing and managing data in a structured way. Below, we will explore how objects can be created and manipulated, using examples.
+
+(add example from code.js here)
+
+The example showcases a song object, which includes properties such as title, artist, album, and releaseYear, along with a method called play. You can access properties using dot notation (e.g., song.title) or bracket notation (e.g., song['artist']). New properties can be added dynamically, such as song.genre = 'Pop', and existing properties can be modified, like updating song.releaseYear to 2021. Methods within objects can be invoked like standard functions; calling song.play() outputs "Now playing: Blinding Lights by The Weeknd." This manipulation of objects allows for efficient organization and retrieval of music-related data in JavaScript.
+
 
 # Question Twelve
+
+JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. In JavaScript, JSON is often used for data exchange between a client and a server. Below, we will explore how to manipulate JSON data in JavaScript.
+
+(add in screenshot of example code.js)
+
+In the example, the song object is converted into a JSON string using JSON.stringify(), resulting in songJSON, which holds a textual representation of the object. This is particularly useful for sending data between a client and a server, as well as for storing information in a structured format. The output of console.log(songJSON) shows the object as a JSON string. To manipulate JSON data, JSON.parse() is employed to convert the JSON string back into a JavaScript object. In this case, newSong holds the parsed object, allowing for straightforward access to its properties, such as retrieving newSong.album, which outputs "After Hours." Additionally, properties can be updated easily, as shown by changing newSong.releaseYear to 2022. This demonstrates how JavaScript facilitates the manipulation of JSON data, making it an effective tool for managing music-related information in applications.
