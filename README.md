@@ -228,22 +228,22 @@ Within this example, the values of isSunny and isWeekend will display different 
 Manipulating Arrays in JavaScript
 Arrays in JavaScript are dynamic data structures that can hold multiple values, making them essential for various programming tasks. They come equipped with numerous built-in methods that facilitate the manipulation of their elements. Below, we will explore some fundamental operations, using examples from the provided code.
 
-![alt text](IMAGES/Question10.pngO)
+![alt text](IMAGES/Question10.png)
 
-The code snippet demonstrates various operations on an array in JavaScript, focusing on a list of fruits. Initially, an array named fruits is created with three elements: 'apple', 'banana', and 'cherry'. Elements are then added using the push method, which appends 'date' to the end of the array, and the unshift method, which adds 'elderberry' to the beginning. After these additions, the array contains ['elderberry', 'apple', 'banana', 'cherry', 'date'].
+The code snippet demonstrates various operations on a playlist in JavaScript, focusing on a list of tracks. Initially, a playlist named playlist is created with three elements: 'Track A', 'Track B', and 'Track C'. Tracks are then added using the push method, which appends 'Track D' to the end of the playlist, and the unshift method, which adds 'Track E' to the beginning. After these additions, the playlist contains ['Track E', 'Track A', 'Track B', 'Track C', 'Track D'].
 
-Subsequently, elements are removed from the array using the pop method, which removes the last element ('date') and returns it, leaving the array as ['elderberry', 'apple', 'banana', 'cherry']. The shift method is then used to remove the first element ('elderberry'), resulting in the array now being ['apple', 'banana', 'cherry'].
+Subsequently, tracks are removed from the playlist using the pop method, which removes the last track ('Track D') and returns it, leaving the playlist as ['Track E', 'Track A', 'Track B', 'Track C']. The shift method is then used to remove the first track ('Track E'), resulting in the playlist now being ['Track A', 'Track B', 'Track C'].
 
-To display the fruits, the forEach method is utilized, which iterates over each element in the array and logs each fruit to the console. The code also includes operations to find specific elements, using the indexOf method to get the index of 'banana', which is 1. Additionally, the filter method is employed to create a new array containing fruits with more than five characters; however, since none of the current fruits meet this criterion, this results in an empty array.
+To display the tracks, the forEach method is utilized, which iterates over each element in the playlist and logs each track to the console. The code also includes operations to find specific tracks, using the indexOf method to get the index of 'Track B', which is 1. Additionally, the filter method is employed to create a new array containing tracks with more than six characters; however, since none of the current tracks meet this criterion, this results in an empty array.
 
-Finally, the current state of the fruits array, the index of 'banana', and the list of long fruits are logged to the console, summarizing the array's contents after the various manipulations. Overall, this code illustrates basic array manipulation techniques, including adding, removing, iterating, and filtering elements in JavaScript.
+Finally, the current state of the playlist, the index of 'Track B', and the list of long tracks are logged to the console, summarizing the playlist's contents after the various manipulations. Overall, this code illustrates basic playlist manipulation techniques, including adding, removing, iterating, and filtering tracks in JavaScript.
 
 
 # Question Eleven
 
 In JavaScript, objects are versatile data structures that allow developers to store collections of key-value pairs. They are essential for organizing and managing data in a structured way. Below, we will explore how objects can be created and manipulated, using examples.
 
-(add example from code.js here)
+![alt text](IMAGES/Question11.png)
 
 The example showcases a song object, which includes properties such as title, artist, album, and releaseYear, along with a method called play. You can access properties using dot notation (e.g., song.title) or bracket notation (e.g., song['artist']). New properties can be added dynamically, such as song.genre = 'Pop', and existing properties can be modified, like updating song.releaseYear to 2021. Methods within objects can be invoked like standard functions; calling song.play() outputs "Now playing: Blinding Lights by The Weeknd." This manipulation of objects allows for efficient organization and retrieval of music-related data in JavaScript.
 
@@ -252,6 +252,6 @@ The example showcases a song object, which includes properties such as title, ar
 
 JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. In JavaScript, JSON is often used for data exchange between a client and a server. Below, we will explore how to manipulate JSON data in JavaScript.
 
-(add in screenshot of example code.js)
+![alt text](IMAGES/Question12.png)
 
 In the example, the song object is converted into a JSON string using JSON.stringify(), resulting in songJSON, which holds a textual representation of the object. This is particularly useful for sending data between a client and a server, as well as for storing information in a structured format. The output of console.log(songJSON) shows the object as a JSON string. To manipulate JSON data, JSON.parse() is employed to convert the JSON string back into a JavaScript object. In this case, newSong holds the parsed object, allowing for straightforward access to its properties, such as retrieving newSong.album, which outputs "After Hours." Additionally, properties can be updated easily, as shown by changing newSong.releaseYear to 2022. This demonstrates how JavaScript facilitates the manipulation of JSON data, making it an effective tool for managing music-related information in applications.

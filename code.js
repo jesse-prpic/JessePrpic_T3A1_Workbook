@@ -1,43 +1,32 @@
-// Creating an Array
-let fruits = ['apple', 'banana', 'cherry'];
+// Creating a Playlist
+let playlist = ['Track A', 'Track B', 'Track C'];
 
-// Adding Elements
-fruits.push('date'); // Adds 'date' to the end
-fruits.unshift('elderberry'); // Adds 'elderberry' to the beginning
+// Adding Tracks
+playlist.push('Track D'); // Adds 'Track D' to the end
+playlist.unshift('Track E'); // Adds 'Track E' to the beginning
 
-// Removing Elements
-let lastFruit = fruits.pop(); // Removes and returns the last element ('date')
-let firstFruit = fruits.shift(); // Removes and returns the first element ('elderberry')
+// Removing Tracks
+let lastTrack = playlist.pop(); // Removes and returns the last track ('Track D')
+let firstTrack = playlist.shift(); // Removes and returns the first track ('Track E')
 
-// Iterating Over an Array
-fruits.forEach((fruit) => {
-    console.log(fruit); // Logs each fruit
+// Iterating Over the Playlist
+playlist.forEach((track) => {
+    console.log(track); // Logs each track
 });
 
-// Finding Elements
-let index = fruits.indexOf('banana'); // Finds the index of 'banana'
-let longFruits = fruits.filter(fruit => fruit.length > 5); // Filters fruits with more than 5 characters
+// Finding Tracks
+let index = playlist.indexOf('Track B'); // Finds the index of 'Track B'
+let longTracks = playlist.filter(track => track.length > 6); // Filters tracks with more than 6 characters
 
-// Summary of fruits after manipulation
-console.log('Current Fruits:', fruits); // Logs the current fruits
-console.log('Index of banana:', index); // Logs index of 'banana'
-console.log('Long Fruits:', longFruits); // Logs fruits with more than 5 characters
-
-
+// Summary of playlist after manipulation
+console.log('Current Playlist:', playlist); // Logs the current playlist
+console.log('Index of Track B:', index); // Logs index of 'Track B'
+console.log('Long Tracks:', longTracks); // Logs tracks with more than 6 characters
 
 ________
 
 Question 11
 
-// Manipulating Objects in JavaScript
-let car = {
-    make: 'Toyota',
-    model: 'Camry',
-    year: 2020,
-    start: function() {
-        console.log('Car started');
-    }
-};
 
 // Manipulating Objects in JavaScript
 let song = {
@@ -63,7 +52,7 @@ song.releaseYear = 2021;
 // Calling a Method
 song.play(); // Outputs: Now playing: Blinding Lights by The Weeknd
 
--________
+_________
 
 
 
