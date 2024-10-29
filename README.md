@@ -164,24 +164,28 @@ Control flow referes to the order in which individual statements, instructions, 
 1. Conditional statements
 Conditional statements in Javascript enable your program to choose different paths based on certain conditions. They are fundamental in decision-making processes within your code and can be broken down into "if", "else-if" and "else" statements.
 
-- If statements
-The "if" statement checks a condition and executes the associated block of code only if the conditional evaluates to be true.
+- If Statements
+The "if" statement evaluates a condition and executes the associated block of code only if the condition is true. This mechanism allows for simple decision-making.
 
-Example: Age to Vote
+Example:
+A check to see if a song is available before playing it:
 
-Here, the condition checks if age is 18 or older. If this statement is true, the message is printed - "You are eligible to vote". If age were less than the condition of being 18, nothing would happen - this demonstrates a simplistic way of a conditional check.
+![alt text](IMAGES/IF.png)
+
+Here, the condition checks if songAvailable is true, the program informs the user that the song is now playing. If it’s false, nothing happens.
 
 - Else-if statement
 With previous example looking at two distinct outcomes, "else-if" statement allows for multiple conditions to be evaluated in sequence, this is particularly useful when you have more than two potential outcomes.
 
-Example: HD to Fail
+Example:
+A program that checks the genre of a song to recommend an action:
 
-))
+![alt text](IMAGES/ELSE_IF.png)
 
-Within this example, there are several ranges for "Marks", a grade is assigned in a range that would coinside with the grades. This approach is efficient for grading systems or any scenarios with a tiered evaluations (Codeacademy, 2023).
+This structure allows for customized messages based on the genre of music, providing a personalized experience for the user. 
 
 Else statement
-
+As we saw in the previous example, "else" statement provides a default action when none of the preceding conditions are met. This helps to ensure that there’s always a response, even if the input doesn’t match expected values.
 
 
 2. Loops
@@ -189,17 +193,45 @@ Else statement
 Loops in JavaScript allow for a condition to be repeated through a block of code, they are essential for automating tasks and processing collections of data without having to deal with repetitive coding and these can be found by using the methods of "For", "While", "Do while" and "For...of and For...in" loops.
 
 - For Loops
+Useful for iterating over a collection, such as a playlist. The for loop is particularly handy when you know in advance how many times you want to iterate. )) reference )) 
 
+Example:
+Iterating through a playlist:
+
+![alt text](IMAGES/ForLoop.png)
+
+This code prints each song in the playlist, demonstrating how loops can efficiently handle collections of items.
 
 - While Loops
+A while loop continues executing as long as a specified condition is true. This type of loop is useful when the number of iterations is not known ahead of time. )) Reference
 
+
+Example:
+Playing songs in a playlist until all songs are played:
+
+![alt text](IMAGES/WhileLoop.png)
+
+Here, the loop continues until songIndex equals the length of the playlist, ensuring all songs are played.
 
 - Do While
+A do while loop executes at least once before checking the condition, making it useful for scenarios where you want the code to run before validating the loop condition. )) reference
 
+Example:
+Playing a song a specific number of times:
+
+![alt text](IMAGES/DoWhileLoop.png)
+
+This loop ensures that the song is played at least once, even if the condition to stop is already true.
 
 - For...of and For...in loops
+These loops are used for iterating over iterable objects (like arrays) and object properties, respectively.
 
+Example:
+Using a for...in loop to display song durations:
 
+![alt text](IMAGES/For_of&For_in_Loops.png)
+
+This code iterates over the properties of the songDurations object, displaying the duration for each song.
 
 3. Logical Operators
 Logical operators enhance conditional statements by allowing the combinations and negation of boolean expressions, these can be depicted by "AND (&&)", " OR (||)" and " NOT (!)".
@@ -212,11 +244,14 @@ The expression evaluates to true if atleast one operand is true
 
 - Logical NOT (!)
 This negates the truthiness of an operand, turning true to false and vice versa
-))
 
-Example: Picnic?
 
-Within this example, the values of isSunny and isWeekend will display different messaged dependent on the outcome. This showcases how logical operators can create complex conditions (MDN, 2023).
+Example:
+Creating a playlist based on user preferences:
+
+![alt text](IMAGES/)
+
+In this case, the program checks the user’s preferences and creates a suitable playlist, demonstrating how logical operators can guide program flow based on user input.
 
 # Question Eight
 
@@ -238,7 +273,6 @@ To display the tracks, the forEach method is utilized, which iterates over each 
 
 Finally, the current state of the playlist, the index of 'Track B', and the list of long tracks are logged to the console, summarizing the playlist's contents after the various manipulations. Overall, this code illustrates basic playlist manipulation techniques, including adding, removing, iterating, and filtering tracks in JavaScript.
 
-
 # Question Eleven
 
 In JavaScript, objects are versatile data structures that allow developers to store collections of key-value pairs. They are essential for organizing and managing data in a structured way. Below, we will explore how objects can be created and manipulated, using examples.
@@ -246,7 +280,6 @@ In JavaScript, objects are versatile data structures that allow developers to st
 ![alt text](IMAGES/Question11.png)
 
 The example showcases a song object, which includes properties such as title, artist, album, and releaseYear, along with a method called play. You can access properties using dot notation (e.g., song.title) or bracket notation (e.g., song['artist']). New properties can be added dynamically, such as song.genre = 'Pop', and existing properties can be modified, like updating song.releaseYear to 2021. Methods within objects can be invoked like standard functions; calling song.play() outputs "Now playing: Blinding Lights by The Weeknd." This manipulation of objects allows for efficient organization and retrieval of music-related data in JavaScript.
-
 
 # Question Twelve
 
