@@ -145,17 +145,26 @@ This analysis encompasses key aspects such as programming proficiency in Python,
 Evaluation of Knowledge and Skills
 - Programming Proficiency in Python: 
 My solid foundation in Python proved invaluable in implementing the core functionality of the Six-Letter Word Game. I effectively utilized object-oriented programming principles, creating classes like Word_game and Responsiveness that organized my code and improved manageability. For example, the clear structure allowed me to maintain and modify game states easily. However, I recognize the need for improvement in file handling, as pointed out by my educator: “For file handling, there is only reading from a file but no writing to a file.” Adding file-writing capabilities in future iterations would enable the application to save player scores and histories, enhancing user experience.
+)) add in reference for coderacademy educator
 
 - Data Structures and Error Handling: 
 My effective use of data structures, such as lists and dictionaries, was instrumental in managing player data and game states. I incorporated error handling that provided clear feedback for invalid inputs, ensuring that the game remained user-friendly. For instance, when a player guessed a word that was not six letters long, the application prompted them to try again without crashing, which maintained the flow of the game. Moving forward, I will focus on implementing more robust error-checking mechanisms, especially regarding installation processes. The educator's feedback highlighted this need: “The simple script written does not check if Python/pip/venv is installed,” which would streamline the setup for users.
+)) add in reference for coderacademy educator
+
 
 - Control Flow and Logic Implementation: 
 I demonstrated a nuanced understanding of control structures by effectively utilizing loops and conditionals to create a complex game flow. This allowed for dynamic feedback based on player guesses, ensuring an engaging experience. For example, the game logic provided immediate responses to player inputs, clearly indicating correct and incorrect letters. However, I recognize the need for clearer feature descriptions and more accurate flowchart design, as noted in the educator's feedback: “The icons used by the flowchart are incorrect.” Enhancing the documentation and visual representation of logic in future projects will be a priority.
+)) add in reference for coderacademy educator
+
 
 - User Interface Design: My implementation of color-coded feedback through the colorama library significantly improved user interaction, providing visual clarity in the terminal. Players could easily identify correct guesses, enhancing their engagement with the game. For instance, using color indicators for different guess outcomes added a layer of fun and strategy to the experience. However, I need to refine my installation instructions to be more user-friendly, as the educator mentioned: “The installation steps have an incorrect step.” By providing explicit and accurate guidance, I can better assist users, especially those with less technical expertise.
+)) add in reference for coderacademy educator
+
 
 - Project Management and Version Control: 
 I effectively utilized version control to manage my project; however, I recognized that my commit messages were sometimes too simplistic or lacked meaningful descriptions. Despite adhering to DRY principles throughout my codebase, which kept my code clean and efficient, I could improve my project management practices. The educator's feedback emphasized this point: “Several commits are either not meaningful or too simple to be a commit.” In future projects, I will strive to ensure that my commit messages are more informative, reflecting the changes made and providing a clearer history of the project’s development.
+)) add in reference for coderacademy educator
+
 
 In conclusion, this project allowed me to apply and evaluate my knowledge and skills effectively. While I succeeded in many areas, the feedback I received highlighted specific opportunities for improvement. By addressing these areas—especially in file handling, error management, and documentation—I can enhance the overall quality and user experience of future projects. This reflective process not only solidifies my understanding but also prepares me for more complex challenges ahead.
 
@@ -256,11 +265,46 @@ Creating a playlist based on user preferences:
 In this case, the program checks the user’s preferences and creates a suitable playlist, demonstrating how logical operators can guide program flow based on user input.
 
 
-
 # Question Eight
 
 
 # Question Nine
+In programming, data types are classifications used to define the type of data a variable can hold. Understanding data types is crucial because it dictates how the computer stores, manipulates, and interacts with data. Each data type has its own behavior, supported operations, and memory representation, influencing both performance and functionality within a program, these data types can be categorized into primitive types and objects (GeeksforGeeks, n.d.). 
+
+JavaScript, like most programming languages, uses a range of built-in primitive data types. These are the most basic types of data that are immutable (i.e., they cannot be altered once created). The seven primitive data types in JavaScript are:
+
+1. Undefined 
+This type represents a variable that has been declared but not yet assigned a value. It’s automatically assigned to a variable when no value is explicitly provided (GeeksforGeeks, n.d.). 
+
+2. Null
+This type represents the intentional absence of any object value. It is often used to indicate that a variable should be empty or nullified (GeeksforGeeks, n.d.). 
+
+3. Boolean
+A Boolean represents one of two possible values: true or false. It's commonly used for decision-making in control structures, these can be in the example of if statements (GeeksforGeeks, n.d.).  
+
+4. Number
+This type represents numeric values, both integer and floating-point. JavaScript uses the IEEE 754 standard for floating-point arithmetic, which means it can handle very large and small numbers but also has some precision limitations (GeeksforGeeks, n.d.).
+
+5. String
+A string is a sequence of characters used to represent textual data. Strings can be defined using either single quotes (') or double quotes ("), or backticks (`) for template literals in JavaScript (GeeksforGeeks, n.d.).
+
+6. Symbol
+A Symbol is a unique and immutable primitive value primarily used to create unique object property keys. Symbols are especially useful for avoiding property name conflicts in objects (GeeksforGeeks, n.d.). 
+
+7. BigInt
+BigInt is a new primitive type that allows you to work with integers larger than the largest number that can be represented by the regular Number type (which is 2^53 - 1). BigInts can represent arbitrarily large integers, making them useful for applications that require working with very large numbers for example cryptography, financial calculations, or handling large data sets (GeeksforGeeks, n.d.).
+
+For example, a string type can represent textual data such as a song title like "Getaway Car" by Taylor Swift. Similarly, the number type can be used to represent numeric values, such as the year of release, 2017, or the track duration in seconds, like 234.
+The boolean type holds values of true or false, which can be used in conditions, such as checking if a user has liked a song on Spotify: isLiked = true. Additionally, null signifies the intentional absence of a value, for instance, when an artist has no available albums: const albums = null;, while undefined indicates that a variable has been declared but not assigned a value, such as when a playlist hasn’t been set yet. 
+In contrast, the object type can store collections of related data. For instance, a JavaScript object representing a Spotify playlist might look like this: const playlist = { name: "Chill Vibes", tracks: 20, creator: "Jesse" };. Furthermore, BigInt is used to handle integers that are too large for the number type. For example, if an artist like Taylor Swift who has 91100000 monthly listeners (Spotify, 5 November 2024), however to make this easier visiually you may end up using the number system like 91.1M.
+
+Another category of data types from primitive data types is; non-primitive, or otherwise known as objects.
+
+)) continue on non-primitve data
+
+GeeksforGeeks. (n.d.). JavaScript data types. GeeksforGeeks. Retrieved November 5, 2024, from https://www.geeksforgeeks.org/javascript-data-types/
+
+Spotify. (5 November, 2024). Taylor Swift. Spotify. https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02
 
 
 # Question Ten
