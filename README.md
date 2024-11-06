@@ -5,14 +5,12 @@ We’ve all heard the saying, "Too many cooks in the kitchen." Being part of a l
 
 Source control systems can be categorized into centralized and distributed models (GitLab, 2024). 
 
-Centralized Version Control Systems (CVCS)
 Centralized Version Control System (CVCS) maintain a single central repository, where all version files reside, making it easy to manage access and control changes but creating a single point of reference (GitLab, 2024).
 
 ![alt text](IMAGES/CentralisedVersionControl.png)
 (Atlassian, 2019) 
 
-Distributed Version Control Systems (CVCS)
-In contrast, distributed version control systems (DVCS), like Git, allow each developer to maintain their own local repository. This setup enables developers to work offline and commit changes independently. DVCS promotes greater flexibility by allowing developers to work on features in isolation, merging changes into the central repository only when ready (GitLab, 2024).
+In contrast, Distributed Version Control Systems (DVCS), like Git, allow each developer to maintain their own local repository. This setup enables developers to work offline and commit changes independently. DVCS promotes greater flexibility by allowing developers to work on features in isolation, merging changes into the central repository only when ready (GitLab, 2024).
 
 ![alt text](IMAGES/DistributedVersionControl.png)
 (Atlassian, 2019) 
